@@ -3,16 +3,12 @@ package com.customerlogs.controller;
 import java.time.LocalDate;
 import java.time.LocalTime;
 import java.util.List;
-// import java.util.TimeZone;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-// import org.springframework.web.bind.annotation.PutMapping;
-//import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
-// import java.util.TimeZone;
 
 import com.customerlogs.entity.*;
 import com.customerlogs.repository.*;
